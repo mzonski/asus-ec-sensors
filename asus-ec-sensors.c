@@ -561,7 +561,7 @@ static const struct ec_board_info board_info_strix_x570_i_gaming = {
 static const struct ec_board_info board_info_strix_x870_i_gaming_wifi = {
 	.sensors = SENSOR_TEMP_CPU | SENSOR_TEMP_CPU_PACKAGE |
 		SENSOR_TEMP_MB | SENSOR_TEMP_VRM,
-	.mutex_path = ACPI_GLOBAL_LOCK_PSEUDO_PATH,
+	.mutex_path = ASUS_HW_ACCESS_MUTEX_SB_PCI0_SBRG_SIO1_MUT0,
 	.family = family_amd_800_series,
 };
 
